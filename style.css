@@ -1,0 +1,36 @@
+
+body {
+	display: flex;
+}
+
+#left {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5% 0 20%;
+}
+
+#card {
+	border: 1px solid;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 10%;
+}
+
+#card img {
+	width: 400px;
+}
+
+#user {
+	width: 250px;
+	display: flex;
+	flex-direction: column;
+}
+
+#user img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
